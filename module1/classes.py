@@ -61,5 +61,3 @@ for v in (my_car, your_car, cessna, mack, golfwagon):
 
 Name =  'Dave' 
 
-
-def gree
