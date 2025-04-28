@@ -2,10 +2,10 @@ def shopping_cart():
     total_cost = 0.0
 
     print("Welcome to the Online Shopping Cart System!")
-    print("Enter the price of each item. Type 'CHECKOUT' to finish and see the total cost.")
+    print("Enter the price of each item. \nType 'CHECKOUT' to finish and see the total cost.")
 
     while True:
-        user_input = input("Enter item price (or 'CHECKOUT' to finish): ")
+        user_input = input("Enter item price  (or 'CHECKOUT' to finish): ")
 
         if user_input.upper() == "CHECKOUT":
             break  # Exit the loop if the user types "CHECKOUT"
